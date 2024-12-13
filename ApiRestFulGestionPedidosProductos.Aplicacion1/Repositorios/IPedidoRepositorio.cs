@@ -10,7 +10,7 @@ namespace ApiRestFulGestionPedidosProductos.Aplicacion.Repositorios
 
         Task<Pedido> ObtenerPorIdAsync(int id);
 
-        Task<IEnumerable<Pedido>> ObtenerTodosAsync();
+        Task<IEnumerable<Pedido>> ObtenerPorClienteAsync(int clienteId);
 
         Task ActualizarAsync(Pedido pedido);
 
