@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApiRestFulGestionPedidosProductos.Aplicacion1\ApiRestFulGestionPedidosProductos.Aplicacion.csproj" />
+    <ProjectReference Include="..\ApiRestFulGestionPedidosProductos.Dominio1\ApiRestFulGestionPedidosProductos.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>
