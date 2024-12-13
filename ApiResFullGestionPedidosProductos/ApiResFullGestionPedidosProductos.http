@@ -1,0 +1,6 @@
+@ApiResFullGestionPedidosProductos_HostAddress = http://localhost:5208
+
+GET {{ApiResFullGestionPedidosProductos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
